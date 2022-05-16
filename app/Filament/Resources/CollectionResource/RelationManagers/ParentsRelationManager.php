@@ -15,6 +15,8 @@ class ParentsRelationManager extends BelongsToManyRelationManager
 
     protected static ?string $recordTitleAttribute = 'title';
 
+    protected bool $allowsDuplicates = true;
+
     /*
 
     Form and Table
